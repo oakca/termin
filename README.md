@@ -28,3 +28,14 @@ Berlin Service Portal - Schedule Termin Script
 
 # Termin
 - When program finds a termin, it will stop and u will give your credentials. Voila!
+
+# Figures
+<p float="left">
+  <img src="figures/ss1.png" width="300"/> 
+  <img src="figures/ss2.png" width="300"/>
+  <img src="figures/ss3.png" width="300"/> 
+</p>
+<p float="left">
+  <img src="figures/ss4.png" width="300"/>
+  <img src="figures/ss5.png" width="300"/>
+</p>
