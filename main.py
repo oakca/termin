@@ -7,7 +7,7 @@ from selenium.common.exceptions import NoSuchElementException
 def get_termin(tor, termin):
     os.popen(tor)
 
-    proxy = "socks5://localhost:9050"
+    proxy = 'socks5://localhost:9050'
     options = webdriver.ChromeOptions()
     options.add_argument('--proxy-server=%s' % proxy)
     # options.add_argument('window-position=2900,0')
@@ -31,7 +31,7 @@ def get_termin(tor, termin):
             driver.close()
             driver.quit()
     finally:
-        os.system("taskkill /im tor.exe /f")
+        os.system('taskkill /im tor.exe /f')
 
 
 if __name__ == '__main__':
