@@ -21,7 +21,7 @@ def get_termin(tor, termin):
         buchbar.click()
         time.sleep(10000)
     except NoSuchElementException:
-        nextpage = driver.find_element_by_xpath('//a[@title="nächster Monat ab (01-08-2021)"]')
+        nextpage = driver.find_element_by_xpath('//a[@title="nächster Monat ab (01-09-2021)"]')
         nextpage.click()
         try:
             buchbar = driver.find_element_by_xpath('//td[@class="buchbar"]')
